@@ -20,9 +20,6 @@
   * include<openssl.h> 找不到 openssl.h -> openssl-devel沒裝 -> yum install openssl-devel
   * 找不到 -luv -> libuv沒裝 -> yum install libuv-devel 
 
-```
-[Error] Error: Compilation of µWebSockets has failed and there is no pre-compiled binary available for your system. Please install a supported C++11 compiler and reinstall the module 'uws'.
-```
 * problem 2: Node.js 執行錯誤
   * 官網是說有兩個可能
     * There was no C++11 compiler available at installation.
@@ -32,3 +29,6 @@
     * [Node.js更新方法](http://eddychang.me/blog/javascript/58-nodes-update.html)
     * $ sudo n stable
     * 裝完shell要重開...
+```
+[Error] Error: Compilation of µWebSockets has failed and there is no pre-compiled binary available for your system. Please install a supported C++11 compiler and reinstall the module 'uws'.
+```
