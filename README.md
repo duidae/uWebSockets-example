@@ -9,5 +9,8 @@
 * 找不到 -luv -> libuv沒裝 -> yum install libuv-devel 
 
 ## 2. build & install
-* $ make
-* $ make install
+* C++
+  * $ make
+* Node.js
+  * npm init
+  * npm install uws --save
