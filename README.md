@@ -12,5 +12,5 @@
 * C++
   * $ make
 * Node.js
-  * npm init
-  * npm install uws --save
+  * $ npm init
+  * $ npm install uws --save
