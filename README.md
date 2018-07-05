@@ -21,6 +21,6 @@
   * [Node.js更新方法](http://eddychang.me/blog/javascript/58-nodes-update.html)
   * sudo n stable
   
-``
+```
 [Error] Error: Compilation of µWebSockets has failed and there is no pre-compiled binary available for your system. Please install a supported C++11 compiler and reinstall the module 'uws'.
-``
+```
