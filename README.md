@@ -14,10 +14,12 @@
 
 ## 2. build & install
 * C++
+  * $ mkdir -p uWebSocket
   * $ git clone https://github.com/uNetworking/uWebSockets.git
   * $ make
   * $ sudo make install
 * Node.js
+  * $ mkdir -p uWebSocket-nodejs
   * $ npm init
   * $ npm install uws --save
   
