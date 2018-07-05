@@ -1,8 +1,13 @@
 # uWebsocket-test
 
 ## 0. source
-* github(C++): https://github.com/uNetworking/uWebSockets
-* nodejs npm(Javascript): https://www.npmjs.com/package/uws
+* enviroment
+  * CentOS 7
+* uWebSocket
+  * github(C++): https://github.com/uNetworking/uWebSockets
+  * nodejs npm(Javascript): https://www.npmjs.com/package/uws
+* websocket
+  * github: https://github.com/theturtle32/WebSocket-Node
 
 ## 1. install related library
 * $ sudo yum install openssl-devel libuv-devel
