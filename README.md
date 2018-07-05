@@ -6,7 +6,6 @@
 
 ## 1. install related library
 * $ sudo yum install openssl-devel libuv-devel
-* 找不到 -luv -> libuv沒裝 -> yum install libuv-devel 
 
 ## 2. build & install
 * C++
@@ -17,10 +16,14 @@
   * $ npm install uws --save
   
 ## problem
+* problem 1: 找不到相關library
+  * include<openssl.h> 找不到 openssl.h -> openssl-devel沒裝 -> yum install openssl-devel
+  * 找不到 -luv -> libuv沒裝 -> yum install libuv-devel 
+
 ```
 [Error] Error: Compilation of µWebSockets has failed and there is no pre-compiled binary available for your system. Please install a supported C++11 compiler and reinstall the module 'uws'.
 ```
-* problem 1 in Node.js
+* problem 2: Node.js 執行錯誤
   * 官網是說有兩個可能
     * There was no C++11 compiler available at installation.
     * Your system is not an official Tier 1 Node.js platform.
