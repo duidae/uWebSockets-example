@@ -3,6 +3,6 @@
 ## 1. install related library
 * $ sudo yum install openssl-devel libuv-devel
 
-## build & install
+## 2. build & install
 * $ make
 * $ make install
