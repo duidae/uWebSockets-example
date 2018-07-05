@@ -1,7 +1,7 @@
 # uWebsocket-test
 
 ## 0. source
-* enviroment
+* environment
   * CentOS 7
 * uWebSocket
   * github(C++): https://github.com/uNetworking/uWebSockets
