@@ -27,5 +27,5 @@
   * 可我g++已經是gcc version 4.8.5, 有支援c++11, 所以應該是Node.js太舊
     * CentOS 用 yum install下來的node.js太舊(v6.14.3), 要升級, 否則uws執行時會有error
     * [Node.js更新方法](http://eddychang.me/blog/javascript/58-nodes-update.html)
-    * sudo n stable
+    * $ sudo n stable
     * 裝完shell要重開...
