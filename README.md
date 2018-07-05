@@ -17,8 +17,8 @@
   
 ## problem
 * problem 1: 找不到相關library
-  * include<openssl.h> 找不到 openssl.h -> openssl-devel沒裝 -> yum install openssl-devel
-  * 找不到 -luv -> libuv沒裝 -> yum install libuv-devel 
+  * include<openssl.h> 找不到 openssl.h -> openssl-devel沒裝 -> $ yum install openssl-devel
+  * 找不到 -luv -> libuv沒裝 -> $ yum install libuv-devel 
 
 * problem 2: Node.js 執行錯誤
   * 官網是說有兩個可能
