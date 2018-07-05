@@ -14,6 +14,7 @@
 
 ## 2. build & install
 * C++
+  * $ git clone https://github.com/uNetworking/uWebSockets.git
   * $ make
   * $ sudo make install
 * Node.js
