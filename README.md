@@ -3,23 +3,19 @@
 ## 0. source
 * environment
   * CentOS 7
-* uWebSocket
+* uWebSockets
   * github(C++): https://github.com/uNetworking/uWebSockets
   * nodejs npm(Javascript): https://www.npmjs.com/package/uws
-* websocket
-  * github: https://github.com/theturtle32/WebSocket-Node
 
 ## 1. install related library
 * $ sudo yum install openssl-devel libuv-devel
 
-## 2. build & install
+## 2. build & install uWebSockets
 * build C++ source
-  * $ mkdir -p uWebSockets-example
-  * $ cd uWebSockets-example
-  * $ git clone https://github.com/uNetworking/uWebSockets.git
+  * $ git clone https://github.com/uNetworking/uWebSockets.git uWebSockets-source
   * $ make
   * $ sudo make install
-* 我的這個repo只有放範例而已
+* 我的這個repo只有放範例而已, git clone 後 make 產生 server-uws
   
 ## problems(solved)
 * 找不到相關library
