@@ -13,12 +13,13 @@
 * $ sudo yum install openssl-devel libuv-devel
 
 ## 2. build & install
-* C++
+* build C++ source
   * $ mkdir -p uWebSockets-example
   * $ cd uWebSockets-example
-  * $ git clone https://github.com/duidae/uWebSockets-example.git
+  * $ git clone https://github.com/uNetworking/uWebSockets.git
   * $ make
   * $ sudo make install
+* 我的這個repo只有放範例而已
   
 ## problems(solved)
 * 找不到相關library
