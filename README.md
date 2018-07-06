@@ -16,7 +16,7 @@
 * C++
   * $ mkdir -p uWebSockets-example
   * $ cd uWebSockets-example
-  * $ git clone https://github.com/uNetworking/uWebSockets.git
+  * $ git clone https://github.com/duidae/uWebSockets-example.git
   * $ make
   * $ sudo make install
   
